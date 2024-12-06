@@ -1,0 +1,21 @@
+.changer{
+    background-color: #76b11d;
+    padding: 10px;
+    border-radius: 10px;
+}
+.changer > div{
+    text-transform: uppercase;
+    padding: 2px;
+}
+.show{
+    display: block;
+}
+.hide {
+    display: none;
+}
+.active{
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,89 @@
+.book table {}
+
+.book td {
+    padding: 5px;
+    font-size: 10px;
+    border: 1px solid black;
+
+}
+
+.book th {
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.book td {
+    font-weight: normal;
+    text-align: center;
+}
+
+.book tr:first-child {
+    border-bottom: 2px solid black;
+}
+
+.book tr:nth-child(even) {
+
+    background-color: rgb(194, 194, 194);
+
+}
+
+.book table button {
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px
+}
+
+.book a {
+    color: white;
+}
+
+
+/* ********************************************* */
+.book1 table {}
+
+
+.book1 td {
+    padding: 5px;
+    font-size: 10px;
+    border: 1px solid black;
+
+}
+
+.book1 th {
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.book1 th:first-child {
+    width: 17%;
+}
+
+.book1 td {
+
+    font-weight: normal;
+    text-align: center;
+}
+
+.book1 tr:first-child {
+    border-bottom: 2px solid black;
+}
+
+.book1 tr:nth-child(even) {
+
+    background-color: rgb(194, 194, 194);
+
+}
+
+.book1 table button {
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px
+}

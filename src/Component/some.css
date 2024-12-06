@@ -1,0 +1,22 @@
+.d-flex {
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* position: relative;
+    left: 20%; */
+
+}
+
+.block {
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

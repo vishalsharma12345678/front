@@ -1,0 +1,159 @@
+.rooms {
+    width: 80%;
+    padding: 2rem;
+}
+
+.rooms form {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.rooms p:nth-child(odd) {
+    width: 30%;
+}
+
+.rooms p:nth-child(even) {
+    width: 65%;
+}
+
+.rooms input,
+.rooms select {
+    border: 2px solid #434040;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.rooms button {
+    background-color: rgb(50, 50, 255);
+    border: none;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.rooms button:hover {
+    background-color: rgb(79, 79, 255);
+    /* color: rgb(0, 0, 0); */
+}
+
+.rooms table {
+    width: '100%';
+    border-collapse: collapse
+}
+
+.rooms th {
+    /* border: none; */
+    text-align: left;
+    padding: 10px
+}
+
+.rooms td input {
+    width: 100%;
+    border: none !important;
+}
+
+.rooms input::-webkit-outer-spin-button,
+.rooms input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.rooms input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.rooms table input:focus-visible {
+    /* width: 100%; */
+    outline: none;
+    border: none !important;
+
+}
+
+
+
+
+/* *********************************************************** */
+.rooms1 {
+    width: 80%;
+    padding: 2rem;
+}
+
+.rooms1 form {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.rooms1 p:nth-child(odd) {
+    width: 30%;
+}
+
+.rooms1 p:nth-child(even) {
+    width: 65%;
+}
+
+.rooms1 input,
+.rooms1 select {
+    border: 2px solid #434040;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.rooms1 button {
+    background-color: rgb(50, 50, 255);
+    border: none;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.rooms1 button:hover {
+    background-color: rgb(79, 79, 255);
+    /* color: rgb(0, 0, 0); */
+}
+
+.rooms1 table {
+    width: 100%;
+    border-collapse: collapse
+}
+
+.rooms1 th {
+    width: 12%;
+}
+
+.rooms1 th {
+    /* border: none; */
+    text-align: left;
+    padding: 10px
+}
+
+.rooms1 td input {
+    width: 100%;
+    border: none !important;
+}
+
+.rooms1 input::-webkit-outer-spin-button,
+.rooms1 input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.rooms1 input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.rooms1 table input:focus-visible {
+    /* width: 100%; */
+    outline: none;
+    border: none !important;
+
+}

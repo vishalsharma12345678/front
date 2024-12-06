@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url('../Britannia Bold Cg.ttf');
+}
+
+#invoice-POS {
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+  padding: 10mm;
+  margin: 0 auto;
+  width: 210mm;
+  min-height: 297mm;
+  background: #fff;
+  /* border: 1px solid black; */
+}
+
+::selection {
+  background: #f31544;
+  color: #fff;
+}
+
+::moz-selection {
+  background: #f31544;
+  color: #fff;
+}
+
+p {
+  margin: 0;
+
+}
+
+#top {
+  min-height: 20px;
+}
+
+#bot {
+  min-height: 50px;
+}
+
+#top .logo {
+  /* //float: left; */
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
+  /* background: url(https://www.poornima.edu.in/wp-content/uploads/2023/09/cricket-clip-art_f4214a4f2.jpg) */
+  /* no-repeat; */
+  /* background-size: 50px 50px; */
+}
+
+.info {
+  display: block;
+  margin-left: 0;
+}
+
+.info h2 {
+  font-size: 4rem;
+  font-weight: bolder;
+  font-family: myFirstFont;
+}
+
+.data {
+  outline: 3px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.data td,
+.data th {
+  font-size: 14px;
+}
+
+.invoicetable tr,
+.invoicetable th {
+  border: 2px solid black;
+  text-align: center;
+
+}
+
+.invoicetable td {
+  padding: 5px;
+  border: 2px solid black;
+  text-align: left;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+.footer td {
+  text-align: center;
+}
